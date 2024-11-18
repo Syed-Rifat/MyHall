@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<resources>
+<!-- Define a custom button style -->
+<style name="RoundCustomButtonStyle" parent="Widget.AppCompat.Button">
+    <!-- Solid background color -->
+    <item name="android:backgroundTint">#00796B</item> <!-- Button background color -->
+
+    <!-- Corner radius for rounded corners -->
+    <item name="cornerRadius">16dp</item> <!-- Adjust radius to change the roundness -->
+
+    <!-- Border properties (stroke) -->
+    <item name="strokeColor">#004D40</item> <!-- Border color -->
+    <item name="strokeWidth">2dp</item> <!-- Border width -->
+
+    <!-- Optional text and appearance settings -->
+    <item name="android:textColor">#FFFFFF</item> <!-- Text color -->
+    <item name="android:padding">12dp</item> <!-- Padding for the button -->
+    <item name="android:textStyle">bold</item> <!-- Text style, optional -->
+</style>
+
+
+
+<!--<resources>-->
+<!--&lt;!&ndash; Define a custom button style &ndash;&gt;-->
+<!--<style name="CustomButtonStyle" parent="Widget.AppCompat.Button">-->
+<!--    <item name="android:background">@drawable/rounded_button</item> &lt;!&ndash; Replace 'your_shape_file' with the name of your shape drawable &ndash;&gt;-->
+<!--    <item name="android:textColor">#FFFFFF</item> &lt;!&ndash; Text color for the button &ndash;&gt;-->
+<!--    <item name="android:padding">12dp</item> &lt;!&ndash; Optional padding &ndash;&gt;-->
+<!--</style>-->
+<!--</resources>-->
+
+
+
+<!-- Common EditText Style -->
+<style name="CommonEditTextStyle">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_marginTop">20dp</item>
+    <item name="android:layout_marginLeft">30dp</item>
+    <item name="android:layout_marginRight">30dp</item>
+    <item name="android:padding">10dp</item>
+    <item name="android:background">#D3D3D3</item>
+    <item name="android:textColor">#000000</item>
+    <item name="android:textSize">16sp</item>
+    <item name="android:inputType">text</item>
+    <item name="android:importantForAccessibility">yes</item>
+    <item name="android:focusable">true</item>
+    <item name="android:focusableInTouchMode">true</item>
+    <item name="android:imeOptions">actionDone</item>
+    <item name="android:maxLines">1</item>
+</style>
+
+</resources>

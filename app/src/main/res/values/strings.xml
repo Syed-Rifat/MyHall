@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Hall</string>
+    <string name="my_hall">My Hall</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_register">Don\'t have an account? Register</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="student_id_email_rna">Student ID / Email / RNA</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next">Next</string>
+    <string name="submit">Submit</string>
+    <string name="full_name">Enter Your Full Name</string>
+    <string name="id">Enter Your Student ID</string>
+    <string name="department">Enter Your Department</string>
+    <string name="email">Enter Your Email Address</string>
+    <string name="phone">Enter Your Phone Number</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register_request">Register Request</string>
+    <string name="already_have_an_account_login">already have an account?login</string>
+</resources>

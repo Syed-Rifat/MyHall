@@ -1,0 +1,9 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Solid background color -->
+    <solid android:color="#00796B"/> <!--     Button background color-->
+    <!-- Rounded corners -->
+    <corners android:radius="16dp"/> <!-- Adjust radius to change the roundness -->
+
+    <!-- Optional border (stroke) -->
+    <stroke android:color="#004D40" android:width="2dp"/> <!-- Border color and width -->
+</shape>
